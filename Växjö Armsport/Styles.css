@@ -1,0 +1,20 @@
+body {
+    background-image: url('glass logo - mockup copy.png');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.logo {
+    width: 200px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    background-image: url('VAXJO ARMSPORT - LOGO - FINAL-01.png'); /* Add the path to your logo image */
+    background-size: contain; /* Adjust the background size as needed */
+    background-repeat: no-repeat; /* Prevent the logo from repeating */
+}
+
+.font {
+    font-family: 'Roboto', sans-serif; /* Add your preferred modern font family */
+    font-size: 16px; /* Adjust the font size as needed */
+    color: #ff0000; /* Adjust the font color as needed */
+}
