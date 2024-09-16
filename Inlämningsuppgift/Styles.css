@@ -1,0 +1,165 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box1, .box2, .box3 {
+    width: 100%; 
+    padding: 20px;
+    box-sizing: border-box; 
+}
+
+.box1 {
+    background-image: url('BackgroundColor1.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 876px; 
+    position: relative; 
+    overflow: hidden; 
+}
+
+.navigation-container {
+    position: absolute;
+    top: 20px; 
+    left: 20px; 
+    display: flex;
+    align-items: center; 
+    gap: 20px; 
+}
+
+.logo-container, .features-container {
+    display: flex; 
+    align-items: center; 
+}
+
+.Silicon {
+    width: 100px; 
+    max-width: 100%; 
+    margin-left: 200px;
+}
+
+.Features {
+    color: #000;
+    text-decoration: none;
+    font-size: 13px;
+    margin-top: -5px;
+}
+
+.heading-container {
+    position: relative;
+    margin: 100px 0 -30px 0; 
+}
+
+.h11 {
+    font-size: 50px;
+    margin: 0; 
+    margin-left: 200px;
+    margin-top: 200px;
+}
+
+.text-container {
+    color: rgb(114, 114, 114);
+    margin-top: 0px;
+    margin-left: 200px;
+}
+
+.p1 {
+    margin-top: 50px;
+}
+
+.app-image {
+    margin-top: 20px;
+    width: 200px;
+    max-width: 100%; 
+}
+
+
+.phone-container {
+    position: absolute;
+    bottom: -250px; 
+    right: 0; 
+    width: 400px; 
+    height: auto; 
+    margin-right: 600px;
+}
+
+.phone {
+    width: 100%; 
+    height: auto; 
+}
+
+.phone-container-new {
+    position: absolute;
+    bottom: -10px; 
+    right: 0; 
+    width: 400px; 
+    height: auto; 
+    margin-right: 370px;
+}
+
+.phone-new {
+    width: 100%; 
+    height: auto; 
+}
+
+.DarkMode-container {
+    position: absolute;
+    top: 25px; 
+    right: 20px; 
+    width: 120px; 
+    height: auto; 
+    margin-right: 580px;
+}
+
+.DarkMode {
+    width: 100%; 
+    height: auto; 
+}
+
+.SignUp-container {
+    position: absolute;
+    top: 20px; 
+    right: 20px; 
+    width: 120px; 
+    height: auto; 
+    margin-right: 430px;
+}
+
+.SignUp {
+    width: 100%; 
+    height: auto; 
+}
+
+.Discover-container {
+    position: absolute;
+    bottom: 80px; 
+    left: 220px; 
+    width: 120px; 
+    height: auto; 
+    
+}
+
+.Discover {
+    width: 100%; 
+    height: auto; 
+}
+
+
+.box2 {
+    background-color: #f0f0f0; 
+    min-height: 1077px; 
+    margin-top: 1000px; 
+    position: relative;
+}
+
+
+.box3 {
+    background-color: #f0f0f0;
+    min-height: 542px; 
+    margin-top: 1200px; 
+    margin-bottom: 1000px; 
+    position: relative;
+}
